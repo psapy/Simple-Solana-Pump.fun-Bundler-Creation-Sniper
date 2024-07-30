@@ -12,6 +12,7 @@ const mpl = new PublicKey("metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s")
 // will create a file named savedWallets in the same folder that holds your swap wallets keypairs. These persist until you physically delete them, then it will create new. It wont overwite the old ones ever.
 // this bundler swaps in w/ 12 wallets in the same block as creation via jito bundles.
 // I added a fee for the same amount as the jito tip (0.001 SOL) to my own wallet per token creation. Feel free to remove if you want to.
+// star the repo plz thanks
 
 const connection = new Connection('Your Rpc Url') // your rpc, free works
 const amountOfTokensToBuyPerWallet = 150000000000 // will buy 1500000 tokens per wallet for a 6 decimal token
